@@ -30,10 +30,11 @@ const About = () => {
             >
               <div className="relative w-[320px] h-[320px] rounded-full overflow-hidden">
                 <Image
-                  src="/ashok.jpg"
+                  src="/Ashok.jpg"
                   alt="Profile"
                   fill
                   priority
+                  sizes="(max-width: 640px) 260px, 320px"
                   className="object-cover object-[50%_30%]"
                 />
               </div>
